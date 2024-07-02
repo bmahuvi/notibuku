@@ -26,7 +26,7 @@ class HomeView extends StatelessWidget {
               style: theme.textTheme.labelLarge!.copyWith(fontSize: 16),
             ),
           ),
-          CustomSearchBar()
+          const CustomSearchBar()
         ],
       ),
     );
